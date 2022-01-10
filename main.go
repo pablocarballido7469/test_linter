@@ -1,8 +1,13 @@
 package main
 
-import "test_linter/internal"
+import (
+	"fmt"
+	"test_linter/internal"
+)
 
 func main() {
 	internal.Hello("Tien")
 	internal.Hello("Test")
+	x = 2
+	fmt.Println(x)
 }
