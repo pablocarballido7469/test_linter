@@ -1,0 +1,21 @@
+go_import_path: github.com/haitien/test_linter
+
+language: go
+
+dist: xenial
+
+os:
+  - linux
+
+go:
+  - "1.15"
+
+services:
+  - docker
+
+install:
+  - echo 'skip install'
+
+script:
+  - echo "skipping tests"
+  # - go test -race ./...
